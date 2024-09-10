@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+#Titlehead{    
+    position: relative;
+    background-color: rgb(219, 239, 137);
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 50px 0px 50px 0px;
+    transition: all 0.3s ease;
+    
+}
+
+#Titlehead:hover{
+    background-color:rgb(157, 234, 64) ;
+    cursor: pointer;
+}
+
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(62, 23, 23);
+    border: 1px black solid;   
+    border-radius: 10px;
+
+}
+
+#navbar a{
+    padding: 20px 14px 20px 14px;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+
+#navbar a:hover{
+    background-color: #594e4e;
+    color:crimson;
+    border-radius: 10px;
+}
+
+@media(max-width:800px){
+    #navbar{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,26 @@
+#ball{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#int{
+    
+    margin: 10px;
+    
+}
+
+
+#int:active{
+    background-color: antiquewhite;
+    color: dimgray;
+}
+
+#lab{
+    background-color: beige;
+    color: red;
+}
+
+#sub:active{
+    background-color: aquamarine;
+    color: chartreuse;
+}
