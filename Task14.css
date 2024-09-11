@@ -1,0 +1,24 @@
+#Titlehead{
+    text-align: center;
+    position: relative;
+    padding: 40px 0px 40px 0px;
+    background-color: antiquewhite;
+    text-shadow: 0 0 3px #291111, 0 0 5px #00ff04;
+    color: rgb(4, 5, 2);
+}
+
+#sha{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue
+}
+
+#content{
+    text-align: center;
+    border-radius: 5px;
+    border: 1px black solid;
+    margin-left: 500px;
+    margin-right: 300px;
+    background-color: #00ff04;
+    box-shadow: black 10px 10px;
+}

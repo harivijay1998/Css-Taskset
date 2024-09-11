@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+#outerring{
+    border: 2px black solid;
+    padding: 300px 50px 300px 50px;
+    margin-top: 100px;
+    position: relative;
+}
+
+#bluediv{
+    position: absolute;
+    width: 100px;   
+    background-color: aqua;
+    clip-path: circle(20%);
+    bottom: 1px;
+}
+
+#cirdiv{
+    position: absolute;
+    width: 100px;
+    background-color: brown;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    bottom: 1px;
+    right: 400px;
+}
+
+#transdiv{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    bottom: 1px;
+    left: 500px;
+    transition: width 4s, height 4s, tranform 4s  ease;
+
+}
+
+#transdiv:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+    bottom: 50px;
+}
